@@ -1,0 +1,13 @@
+.copy {
+  color: rgb(8, 8, 8);
+  background-color: grey;
+  font-style: italic;
+  font-size: 25px;
+}
+body {
+  font-size: 18px;
+  font-style: tahoma;
+  font color: rebeccapurple;
+  background-color:mediumpurple;
+  line-height:1.5;
+}
