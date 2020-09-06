@@ -1,0 +1,24 @@
+.div1 {
+  padding: 0.5em;
+  border: 20 px solid #98be10;
+  background: #1cb631;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.div2 {
+  padding: 0.5em;
+  border: 20 px solid #f583c2;
+  background: #8d1172;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+.div3 {
+  padding: 0.5em;
+  border: 20 px solid #83cbf5;
+  background: #1d076d;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}

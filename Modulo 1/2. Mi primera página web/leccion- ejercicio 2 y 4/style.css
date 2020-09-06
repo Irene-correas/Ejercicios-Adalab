@@ -11,3 +11,5 @@ body {
   background-color:mediumpurple;
   line-height:1.5;
 }
+.box { background-image: url('https://www.fillmurray.com/150/1500');
+  background-size: contain;
