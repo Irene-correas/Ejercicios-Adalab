@@ -1,0 +1,29 @@
+.box {
+    background: red;
+    height: 100px;
+  }
+
+@media all and (min-width: 768px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media all and (min-width:550px) {
+.box {
+    background: blue;
+}
+/* mobile */
+@media all and (min-width:320)

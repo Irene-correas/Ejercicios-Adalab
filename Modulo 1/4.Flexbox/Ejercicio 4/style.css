@@ -1,0 +1,8 @@
+.body {
+  width: 25vw;
+}
+.noticias {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
