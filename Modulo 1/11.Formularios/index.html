@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/signup" method="post">
+        <label for="fullName">Nombre completo</label>
+        <input placeholder="María" type="text" id="fullName" name="fullName" />
+
+        <label for="lastName">Apellido</label>
+        <input placeholder="García" type="email" id="lastName" name="lastName" />
+
+        <label for="emailaddress">Correo electrónico</label>
+        <input placeholder="mariagarcia@gmail.com" type="email" id="emailaddress" name="emailaddress" />
+
+        <label for="city">Ciudad</label>
+        <input placeholder="Madrid" type="text" id="city" name="city" />
+
+        <label for="province">Provincia</label>
+        <input placeholder="Madrid" type="text" id="province" name="province" disabled />
+
+
+        <label for="dni">DNI</label>
+        <input placeholder="12.345.678A" type="text" id="dni" name="dni" />
+
+        <label for="telephone">Teléfono</label>
+        <input placeholder="9155555555" type="tel" id="telephone" name="telephone" />
+
+        <label for="password">Contraseña</label>
+        <input placeholder="contraseña" type="password" id="password" name="password" />
+
+        <label for="confirmPassword">Confirmar contraseña</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" />
+
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
