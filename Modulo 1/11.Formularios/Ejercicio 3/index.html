@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="https://adalab.es/" target="_blank">
+            <img class="link-logo" src="./Img/adalab_brand.png" alt="logo Adalab" title="web Adalab" />
+        </a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a class="link logo" href="https://medium.com/adalab" title="Medium">Blog
+                    </a> </li>
+                <li>
+                    <a class="link contacto" href="https://adalab.es/" title="Contacta con nosotros"> Contacto
+                    </a> </li>
+                <li>
+                    <a class="link lugar"
+                        href="https://talentgarden.org/es/coworking/spain/madrid/?utm_medium=ppc&utm_source=adwords&utm_term=talent%20garden%20madrid&utm_campaign=ES+%7C+es+%7C+Search+%7C+Brand+%7C+Traffic+%7C+ALL_D+%7C+ALL_A+%7C+Madrid+Cowo+%7C+Madrid+Targeting&hsa_ver=3&hsa_acc=2164831972&hsa_net=adwords&hsa_cam=1825106554&hsa_mt=e&hsa_grp=67023200542&hsa_src=g&hsa_kw=talent%20garden%20madrid&hsa_ad=345315160078&hsa_tgt=kwd-644022940210&gclid=CjwKCAjw2Jb7BRBHEiwAXTR4jYOJ1_WS32D7zmN0mj0TTekJAyLukPFQF5lVNzELeFhkJrFGpa0wvxoCZWUQAvD_BwE"
+                        title="Descubre nuestras instalaciones">¿Dónde estamos?
+                    </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form class="form" action="/signup" method="post">
+
+            <label for="fullName">Nombre completo</label>
+            <input class="texto" placeholder="María" type="text" id="fullName" name="fullName" required />
+
+            <label for="lastName">Apellido</label>
+            <input class="texto" placeholder="García" type="email" id="lastName" name="lastName" />
+
+            <label for="emailaddress">Correo electrónico</label>
+            <input placeholder="mariagarcia@gmail.com" type="email" id="emailaddress" name="emailaddress" />
+
+            <label for="city">Ciudad</label>
+            <input class="texto" placeholder="Madrid" type="text" id="city" name="city" disabled />
+
+            <label for="dni">DNI</label>
+            <input class="texto" placeholder="12.345.678A" type="text" id="dni" name="dni"
+                pattern="[0-9]{8}[A-Za-z]{1}" />
+
+            <label for="telephone">Teléfono</label>
+            <input class="texto" placeholder="9155555555" type="tel" id="telephone" name="telephone" />
+
+
+            <label for="age">Edad:</label> <input type="number" id="age" name="age" />
+
+            <label for="password">Contraseña</label>
+            <input class="texto" placeholder="contraseña" type="password" id="password" name="password" />
+
+            <label for="confirmPassword">Confirmar contraseña</label>
+            <input class="texto" type="password" id="confirmPassword" name="confirmPassword" />
+
+            <input class="texto" type="submit" value="Enviar" />
+        </form>
+    </main>
+</body>
+
+</html>

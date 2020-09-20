@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-    <form action="/signup" method="post">
+    <!-- <div class="signup"> -->
+    <form class="form" action="/signup" method="post">
         <label for="fullName">Nombre completo</label>
-        <input placeholder="María" type="text" id="fullName" name="fullName" />
+        <input placeholder="María" type="text" id="fullName" name="fullName" required />
 
         <label for="lastName">Apellido</label>
         <input placeholder="García" type="email" id="lastName" name="lastName" />
@@ -39,6 +41,7 @@
 
         <input type="submit" value="Enviar" />
     </form>
+    <!-- </div> -->
 </body>
 
 </html>
